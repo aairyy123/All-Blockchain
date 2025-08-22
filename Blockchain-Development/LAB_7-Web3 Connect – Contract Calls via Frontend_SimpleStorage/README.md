@@ -7,7 +7,7 @@ This app allows users to connect their MetaMask wallet, store a number on-chain,
 ![Ethers.js](https://img.shields.io/badge/ethers.js-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)
 ![MetaMask](https://img.shields.io/badge/MetaMask-FF7139?style=for-the-badge&logo=metamask&logoColor=white)
 
-## ✨ Features
+##  Features
 
 -   **Wallet Connection**: Seamlessly connect and disconnect your MetaMask wallet.
 -   **Read from Blockchain**: Fetch and display the current value stored in the smart contract.
@@ -15,18 +15,18 @@ This app allows users to connect their MetaMask wallet, store a number on-chain,
 -   **Transaction Feedback**: User-friendly toast notifications for transaction status (success, pending, failure).
 -   **Responsive UI**: Clean and modern dark-themed user interface.
 
-## 🚀 Live Demo / Quick Start
+##  Live Demo / Quick Start
 
 A live demo is not currently deployed. To run this project locally, follow the instructions below.
 
-## 📦 Prerequisites
+##  Prerequisites
 
 Before you begin, ensure you have the following installed:
 -   **Node.js** (v16 or higher) and **npm**
 -   **MetaMask** browser extension installed in your browser.
     -   Configure it to connect to a test network like Sepolia or a local development network like Hardhat.
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
 1.  **Clone the repository**
     ```bash
@@ -54,7 +54,7 @@ Before you begin, ensure you have the following installed:
     ```
     The app will open in your browser on [`http://localhost:3000`](http://localhost:3000).
 
-## 📖 Usage
+## Usage
 
 1.  **Connect Your Wallet**: Click the "Connect MetaMask Wallet" button. MetaMask will prompt you to connect your account and sign the message.
 2.  **View Stored Value**: Once connected, the current value from the smart contract will be displayed.
@@ -66,7 +66,7 @@ Before you begin, ensure you have the following installed:
 4.  **Refresh Data**: Click the "Retrieve Latest Data" button to manually refresh the displayed value after a transaction.
 5.  **Disconnect**: Click "Disconnect Wallet" to reset the application state.
 
-## 🏗️ Smart Contract
+## Smart Contract
 
 This DApp interacts with a `SimpleStorage.sol` smart contract. The contract must have the following ABI interface:
 
