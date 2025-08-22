@@ -21,6 +21,7 @@ Installation
 
 2.Install dependencies:
   npm install
+
 3.Set up environment variables:
 Create a .env file in the root directory and add:
   REACT_APP_CONTRACT_ADDRESS=your_contract_address_here
@@ -71,6 +72,7 @@ contract TodoList {
 Deploy this contract to your preferred Ethereum network (Mainnet, Goerli, Sepolia, or local Hardhat node).
 
 Design Features :
+
 Modern Glassmorphism UI: Frosted glass effect with subtle borders
 Gradient Backgrounds: Beautiful color transitions throughout the interface
 Interactive Elements: Hover effects and smooth animations
@@ -78,18 +80,21 @@ Custom Checkboxes: Visual indicators for task completion status
 Responsive Layout: Adapts to different screen sizes
 
 Functionality :
+
 Wallet Connection
 Connect MetaMask wallet with one click
 Display truncated wallet address for privacy
 Easy disconnect functionality
 
 Task Management :
+
 Add new tasks to the blockchain
 Mark tasks as completed (immutable on blockchain)
 Real-time task list updates
 Visual status indicators (Pending/Completed)
 
 Usage:
+
 Connect Wallet: Click the "Connect MetaMask Wallet" button
 Add Task: Type your task in the input field and click "Add Task"
 Complete Task: Use the dropdown to mark tasks as completed
@@ -103,9 +108,11 @@ Browser Support
     Network connectivity to Ethereum blockchain
 
 Configuration :
+
 The application can be configured for different networks by updating the contract address in the environment variables.
 
 Troubleshooting :
+
 Common issues and solutions:
   "Contract address is missing" error: Ensure your .env file contains the correct contract address
   Transaction failures: Check that you have sufficient ETH for gas fees
@@ -113,4 +120,5 @@ Common issues and solutions:
   MetaMask connection issues: Try reinstalling MetaMask or checking permissions
 
 License :
+
 This project is licensed under the MIT License.
