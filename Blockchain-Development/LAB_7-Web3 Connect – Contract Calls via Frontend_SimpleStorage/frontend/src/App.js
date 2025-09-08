@@ -86,7 +86,7 @@ function App() {
         setLoading(true);
         const tx = await contract.set(inputValue);
         toast.info("Transaction submitted...");
-        await tx.wait(); // wait for confirmation
+        await tx.wait(); 
         setInputValue('');
         toast.success("Value updated successfully!");
         fetchStoredValue();
@@ -101,7 +101,7 @@ function App() {
 
   return (
     <div style={{
-      backgroundColor: '#001f3f',  // Dark blue background
+      backgroundColor: '#001f3f',  
       minHeight: '100vh',
       display: 'flex',
       justifyContent: 'center',
@@ -110,7 +110,7 @@ function App() {
       padding: '40px'
     }}>
       <div style={{
-        backgroundColor: '#111',  // Black/dark body
+        backgroundColor: '#111',  
         color: 'white',
         padding: '30px',
         borderRadius: '10px',
@@ -120,7 +120,7 @@ function App() {
         textAlign: 'center'
       }}>
         <ToastContainer />
-        <h1>🔐 Simple Storage DApp</h1>
+        <h1> Simple Storage DApp</h1>
 
         {!walletAddress ? (
           <button onClick={connectWallet}>Connect MetaMask Wallet</button>
@@ -148,7 +148,7 @@ function App() {
           </>
         )}
 
-        {/* Spinner animation style */}
+        
         <style>{`
       .spin {
         animation: spin 1s linear infinite;
